@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p build
+echo "running the tool"
+echo ${MYVAR} > build/output.txt
